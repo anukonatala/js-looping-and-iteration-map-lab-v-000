@@ -4,5 +4,6 @@ function lowerCaseDrivers(drivers){
 }
 
 function nameToAttributes(drivers){
-  
+  return Object.assign(
+    {},)
 }

@@ -12,13 +12,9 @@ function nameToAttributes(drivers) {
 }
 
 function attributesToPhrase(drivers){
-  let findString = " is from ";
-  let len = findString.length;
   newArr = drivers.map(function (driver) {
-    console.log("driver == " + driver.split(" "));
-  let index = driver.indexOf(findString);
-  console.log("index == " + index);
-  return {name: driver.slice(0,index), hometown: driver.slice(index+len)}
+  
+  return {firstName: firstLast[0], lastName: firstLast[1]}
    });
-   return newArr;
+  return newArr
 }

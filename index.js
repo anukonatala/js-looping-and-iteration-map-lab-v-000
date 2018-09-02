@@ -5,6 +5,7 @@ function lowerCaseDrivers(drivers){
 
 function nameToAttributes(drivers){
   for(let driver of drivers){
-    Object.assign({}, )
+    let 
+    Object.assign({}, { name: 'Laptop' })
   }
 }

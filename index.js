@@ -11,6 +11,7 @@ function nameToAttributes(drivers) {
   return newArr
 }
 
-function attributesToPhrase(){
+function attributesToPhrase(drivers){
+  let findString = "is from"
   
 }

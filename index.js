@@ -19,4 +19,5 @@ function attributesToPhrase(drivers){
   console.log("index == " + index);
   return {name: driver.slice(0,index), hometown: driver.slice(index+len)}
    });
+   return newArr;
 }

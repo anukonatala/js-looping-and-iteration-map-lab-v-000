@@ -9,7 +9,6 @@ function nameToAttributes(drivers){
     let lName = driver.split(' ')[1];
     console.log("fName == " + fName);
     console.log("lName ===" + lName );
-    newObject = Object.assign({}, { firstName: fName }, { lastName: lName });
-    console.log("Object == " + newObject[firstName]);
+   
   }
 }

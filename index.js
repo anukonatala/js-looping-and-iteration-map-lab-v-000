@@ -14,7 +14,6 @@ function nameToAttributes(drivers) {
 function attributesToPhrase(drivers){
   newArr = drivers.map(function (driver) {
   
-  return {firstName: firstLast[0], lastName: firstLast[1]}
-   });
+  return `${driver.name} is from ${driver.hometown}`);
   return newArr
 }

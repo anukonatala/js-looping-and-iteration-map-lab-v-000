@@ -3,12 +3,10 @@ function lowerCaseDrivers(drivers){
   return drivers.map(x => x.toLowerCase());
 }
 
-function nameToAttributes(drivers){
-  for(let driver of drivers){
-    let fName = driver.split(' ')[0];
-    let lName = driver.split(' ')[1];
-    console.log("fName == " + fName);
-    console.log("lName ===" + lName );
-   
-  }
+function nameToAttributes(drivers) {
+  newArr = drivers.map(function (driver) {
+  const firstLast = driver.split(" ");
+  return {firstName: firstLast[0], lastName: firstLast[1]}
+   });
+  return newArr
 }

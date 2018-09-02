@@ -12,6 +12,8 @@ function nameToAttributes(drivers) {
 }
 
 function attributesToPhrase(drivers){
-  let findString = "is from";
+  let findString = " is from ";
+  let len = findString.length();
+  
   
 }

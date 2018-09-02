@@ -16,6 +16,6 @@ function attributesToPhrase(drivers){
   let len = findString.length;
   newArr = drivers.map(function (driver) {
   let index = driver.indexOf(findString);
-  return {name: driver.slice(0,index), hometown: firstLast[1]}
+  return {name: driver.slice(0,index), hometown: driver.slice(index+len)}
    });
 }

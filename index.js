@@ -15,7 +15,7 @@ function attributesToPhrase(drivers){
   let findString = " is from ";
   let len = findString.length;
   newArr = drivers.map(function (driver) {
-  let index = driver.split(" ");
-  return {name: firstLast[0], hometown: firstLast[1]}
+  let index = driver.indexOf(findString);
+  return {name: driver.s, hometown: firstLast[1]}
    });
 }

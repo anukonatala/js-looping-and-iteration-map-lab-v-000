@@ -13,7 +13,9 @@ function nameToAttributes(drivers) {
 
 function attributesToPhrase(drivers){
   let findString = " is from ";
+  console.log("findString == " + findString);
   let len = findString.length;
+  console.log("length == "+ len);
   newArr = drivers.map(function (driver) {
   let index = driver.indexOf(findString);
   console.log("index == " + index);

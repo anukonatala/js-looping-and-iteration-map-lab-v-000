@@ -10,3 +10,7 @@ function nameToAttributes(drivers) {
    });
   return newArr
 }
+
+function attributesToPhrase(){
+  
+}

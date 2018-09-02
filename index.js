@@ -10,6 +10,6 @@ function nameToAttributes(drivers){
     console.log("fName == " + fName);
     console.log("lName ===" + lName );
     newObject = Object.assign({}, { firstName: fName }, { lastName: lName });
-    console.log("Object == " + newObject.stringify())
+    console.log("Object == " + newObject)
   }
 }
